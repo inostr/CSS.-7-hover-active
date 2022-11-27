@@ -1,0 +1,74 @@
+a,a:visited{text-decoration: none;}
+body{
+    padding: 30px;
+}
+.block{
+    margin: 0px 0px 30px 0px; 
+}
+.block p:nth-child(odd){
+    text-transform: uppercase;
+    background-color: bisque;
+}
+.block:hover{
+    background: rgb(240, 240, 231);
+}
+.block p{
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0px 0px 20px 0px; 
+}
+.link{
+    color: rgb(230, 30, 30); 
+}
+  
+.link:hover{
+       color: blue;
+       text-decoration: underline;
+}
+.link:active{
+    color:  rgb(214, 183, 45);
+}  
+.textinput{
+    border: 1xp solid #665;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 18px;
+    width: 300px;
+    margin: 0px 0px 10px 0px; 
+}
+.textinput:focus{
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.textbutton{
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: #665;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px 0px 30px 0px; 
+}
+.textbutton:hover{
+    background-color: black;
+}
+.textbutton:active{
+    background-color: aqua;
+}
+.list li{
+    font-size: 18px;
+    margin: 0px 0px 15px 0px;
+}    
+.list li:first-child{
+    color: green;
+}
+.list li:last-child{
+    color: blue;
+
+}
+.list li:nth-child(even){
+    color: blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
